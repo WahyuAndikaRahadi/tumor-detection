@@ -319,7 +319,7 @@ def main():
             
             if uploaded_file is not None:
                 image = Image.open(uploaded_file)
-                st.image(image, caption="Gambar MRI yang diupload" if lang == 'id' else "Uploaded MRI Scan", use_column_width=True)
+                st.image(image, caption="Gambar MRI yang diupload" if lang == 'id' else "Uploaded MRI Scan", use_container_width=True)
                 
                 if lang == 'id':
                     detail_text = f"""
