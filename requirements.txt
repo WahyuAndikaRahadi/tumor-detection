@@ -1,6 +1,6 @@
 streamlit
 tensorflow
-numpy==1.24.3
+numpy          # Biarkan menginstal versi terbaru (saat ini mungkin 1.26.x atau 2.x)
 opencv-python==4.8.1.78
 Pillow==10.0.1
 matplotlib==3.7.2
